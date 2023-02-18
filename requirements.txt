@@ -1,0 +1,9 @@
+black==23.1.0
+flake8==6.0.0
+python-dotenv==0.21.1
+slack-sdk==3.20.0
+slackers==1.0.2
+revChatGPT==2.3.0
+uvicorn==0.20.0
+fastapi~=0.92.0
+dacite~=1.8.0
