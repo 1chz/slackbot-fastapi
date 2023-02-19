@@ -1,11 +1,13 @@
 # 슬랙봇
-`fastapi` 기반의 슬랙봇 샘플 코드
+`fastapi` 기반의 슬랙봇
 
 ## 설치 및 실행
 1. git clone
+    ```shell
+    git clone git@github.com:olivahn/slackbot-fastapi.git && slackbot-fastapi
+    ```
 2. 파이썬 가상환경 생성
     ```shell
-    cd slackbot
     python3 -m venv .venv
     ```
 3. 파이썬 가상환경 활성화
@@ -17,8 +19,15 @@
     pip3 install --upgrade pip && pip3 install -r requirements.txt
     ```
 5. 환경설정
-  - `.env` 작성
-  - `distributors.txt`에 배포 권한을 줄 사람의 슬랙ID를 줄단위로 추가
+  - `.env` 파일 생성 후 아래 내용 기입
+    ```text
+    SLACK_TOKEN=
+    SLACK_SIGNING_SECRET=
+
+    CHATGPT_EMAIL=
+    CHATGPT_PASSWORD=
+    ```
+  - `distributors.txt` 파일 생성 후 배포 권한을 줄 사람의 슬랙 ID를 다음과 같이 줄 단위로 기입
   
     ```text
     U01A2B3C4D5

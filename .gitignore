@@ -121,6 +121,8 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+distributors.txt
+.env
 .venv
 env/
 venv/
@@ -160,5 +162,3 @@ cython_debug/
 .idea/
 *.iml
 
-# VSCode
-.vscode/
