@@ -4,7 +4,7 @@
 ## 설치 및 실행
 1. git clone
     ```shell
-    git clone git@github.com:olivahn/slackbot-fastapi.git && slackbot-fastapi
+    git clone git@github.com:olivahn/slackbot-fastapi.git && cd slackbot-fastapi
     ```
 2. 파이썬 가상환경 생성
     ```shell
